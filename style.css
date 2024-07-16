@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #646169;
+}
+
+.foto-container {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+}
+
+img {
+    border: 5px double #292f32;
+    border-radius: 70%;
+}
+h1 {
+    color: #5BBE42;
+    filter: drop-shadow(0 0 10px #fffdef);
+}
+
+p {
+    color: #091007;
+}
+.botao {
+    width: 60px;
+    height: 60px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    margin-top: 0;
+}
+
+.container > div {
+    cursor: pointer;
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+}
