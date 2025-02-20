@@ -1,7 +1,7 @@
 html, body {
+    background: url('bg-desktop.webp');
     margin: 0;
     padding: 0;
-    background-color: #646169;
 }
 
 .foto-container {
@@ -9,22 +9,17 @@ html, body {
     text-align: center;
     padding: 16px;
 }
+
 img {
-    border: 5px double #292f32; 
+    border: 5px double #292f32;
     border-radius: 10%;
 }
-
-.container img {
-    border-radius: 50%;
-}
-
 h1 {
-    color: #5BBE42;
-    filter: drop-shadow(0 0 10px #fffdef);
+    color: blanchedalmond;
 }
 
 p {
-    color: #091007;
+    color: blanchedalmond;
 }
 .botao {
     width: 60px;
@@ -47,5 +42,78 @@ p {
 .container > div {
     cursor: pointer;
     display: block;
-    filter: drop-shadow(0 0 10px #fffdef);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+  
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+  margin-top: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  background: linear-gradient(45deg, #638ED1, #ff0000, #009688,#44E3D3);
+  background-size: 400% 100%;
+  animation: degrade 10s linear infinite alternate;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  outline: none;
+}
+
+@keyframes degrade {
+  0%{
+      background-position-x: 0%;
+  }
+
+  100%{
+      background-position: 400%;
+  }
+
+p{
+  font-size: 16px;
+  color: green;
+}
+
+.texto{
+    font-size: 30px;
+    text-transform: uppercase;
+
+    background: linear-gradient(45deg, #638ED1, #ff0000, #009688,#44E3D3);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    outline: none;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
 }
